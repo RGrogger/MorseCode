@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F38BAA61DF5B72B004264F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F38BAA41DF5B72B004264F0 /* Main.storyboard */; };
 		3F7A6C9B1DF1D3AA001D8B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A6C9A1DF1D3AA001D8B40 /* AppDelegate.swift */; };
 		3F7A6C9D1DF1D3AA001D8B40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A6C9C1DF1D3AA001D8B40 /* ViewController.swift */; };
-		3F7A6CA01DF1D3AA001D8B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A6C9E1DF1D3AA001D8B40 /* Main.storyboard */; };
 		3F7A6CA21DF1D3AA001D8B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A6CA11DF1D3AA001D8B40 /* Assets.xcassets */; };
 		3F7A6CA51DF1D3AA001D8B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A6CA31DF1D3AA001D8B40 /* LaunchScreen.storyboard */; };
 		3F7A6CB01DF1D3AA001D8B40 /* MorseCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A6CAF1DF1D3AA001D8B40 /* MorseCodeTests.swift */; };
 		3F7A6CBB1DF1D3AA001D8B40 /* MorseCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A6CBA1DF1D3AA001D8B40 /* MorseCodeUITests.swift */; };
+		3FEB34E91DF214BA0053C82B /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB34E81DF214BA0053C82B /* character.swift */; };
+		3FEB34ED1DF2225F0053C82B /* DecipherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB34EC1DF2225F0053C82B /* DecipherViewController.swift */; };
+		3FEB34EF1DF2227C0053C82B /* TranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB34EE1DF2227C0053C82B /* TranslatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F38BAA51DF5B72B004264F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F7A6C971DF1D3AA001D8B40 /* MorseCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7A6C9A1DF1D3AA001D8B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7A6C9C1DF1D3AA001D8B40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F7A6C9F1DF1D3AA001D8B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F7A6CA11DF1D3AA001D8B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7A6CA41DF1D3AA001D8B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7A6CA61DF1D3AA001D8B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		3F7A6CB61DF1D3AA001D8B40 /* MorseCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7A6CBA1DF1D3AA001D8B40 /* MorseCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeUITests.swift; sourceTree = "<group>"; };
 		3F7A6CBC1DF1D3AA001D8B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEB34E81DF214BA0053C82B /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		3FEB34EC1DF2225F0053C82B /* DecipherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecipherViewController.swift; sourceTree = "<group>"; };
+		3FEB34EE1DF2227C0053C82B /* TranslatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				3F7A6C9A1DF1D3AA001D8B40 /* AppDelegate.swift */,
+				3FEB34E81DF214BA0053C82B /* character.swift */,
+				3F38BAA41DF5B72B004264F0 /* Main.storyboard */,
 				3F7A6C9C1DF1D3AA001D8B40 /* ViewController.swift */,
-				3F7A6C9E1DF1D3AA001D8B40 /* Main.storyboard */,
 				3F7A6CA11DF1D3AA001D8B40 /* Assets.xcassets */,
+				3FEB34EE1DF2227C0053C82B /* TranslatorViewController.swift */,
+				3FEB34EC1DF2225F0053C82B /* DecipherViewController.swift */,
 				3F7A6CA31DF1D3AA001D8B40 /* LaunchScreen.storyboard */,
 				3F7A6CA61DF1D3AA001D8B40 /* Info.plist */,
 			);
@@ -232,9 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F38BAA61DF5B72B004264F0 /* Main.storyboard in Resources */,
 				3F7A6CA51DF1D3AA001D8B40 /* LaunchScreen.storyboard in Resources */,
 				3F7A6CA21DF1D3AA001D8B40 /* Assets.xcassets in Resources */,
-				3F7A6CA01DF1D3AA001D8B40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEB34E91DF214BA0053C82B /* character.swift in Sources */,
+				3FEB34ED1DF2225F0053C82B /* DecipherViewController.swift in Sources */,
 				3F7A6C9D1DF1D3AA001D8B40 /* ViewController.swift in Sources */,
 				3F7A6C9B1DF1D3AA001D8B40 /* AppDelegate.swift in Sources */,
+				3FEB34EF1DF2227C0053C82B /* TranslatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +308,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F7A6C9E1DF1D3AA001D8B40 /* Main.storyboard */ = {
+		3F38BAA41DF5B72B004264F0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F7A6C9F1DF1D3AA001D8B40 /* Base */,
+				3F38BAA51DF5B72B004264F0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -505,6 +517,7 @@
 				3F7A6CC11DF1D3AA001D8B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7A6CC21DF1D3AA001D8B40 /* Build configuration list for PBXNativeTarget "MorseCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				3F7A6CC41DF1D3AA001D8B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7A6CC51DF1D3AA001D8B40 /* Build configuration list for PBXNativeTarget "MorseCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				3F7A6CC71DF1D3AA001D8B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
